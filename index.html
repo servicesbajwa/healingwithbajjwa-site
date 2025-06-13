@@ -3,97 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Healing with Bajjwa – Numerology & Holistic Healing</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a779b4bfe9.js" crossorigin="anonymous"></script>
+  <title>Healing with Bajjwa – Contact & WhatsApp Ready</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: sans-serif;
       margin: 0;
-      background: linear-gradient(to bottom, #fff7e6, #f5f5f5);
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Shri_Yantra_3D.svg/1024px-Shri_Yantra_3D.svg.png');
-      background-size: 300px;
-      background-repeat: repeat;
-      background-attachment: fixed;
-      color: #2c2c2c;
-    }
-    header {
-      background: #2a2a72;
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-    .brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
       padding: 0;
     }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s;
+    .contact-form {
+      max-width: 500px;
+      margin: 3rem auto;
+      padding: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
     }
-    nav a:hover {
-      color: #ffd700;
-    }
-    .hero {
-      background: linear-gradient(to right, #2a2a72, #009ffd);
-      color: white;
-      text-align: center;
-      padding: 5rem 2rem 6rem;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      font-family: 'Playfair Display', serif;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-top: 1rem;
-      max-width: 800px;
-      margin-inline: auto;
-    }
-    .cta-btn {
-      margin-top: 2rem;
-      padding: 0.8rem 2rem;
-      background: #ffd700;
-      color: #2a2a72;
-      font-weight: bold;
-      border: none;
-      border-radius: 25px;
-      cursor: pointer;
+    input, textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
       font-size: 1rem;
-      transition: all 0.3s ease;
     }
-    .cta-btn:hover {
-      background: #ffe85c;
-      transform: scale(1.05);
+    button {
+      background-color: #2a2a72;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      cursor: pointer;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      z-index: 1000;
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-  <header>
-    <div class="brand">Healing with Bajjwa</div>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- Additional content already handled in canvas -->
+
+  <h1 style="text-align:center; margin-top:2rem;">Contact Healing with Bajjwa</h1>
+
+  <form class="contact-form" action="https://formspree.io/f/mnqegwbl" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- WhatsApp Button -->
+  <a class="whatsapp-float" href="https://wa.me/919988663361?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20healing%20services" target="_blank" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
 </body>
 </html>
