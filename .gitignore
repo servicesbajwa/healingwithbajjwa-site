@@ -1,0 +1,19 @@
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+.bower_components/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Netlify build
+.netlify/
+
+# Optional backups
+*.bak
+*.tmp
